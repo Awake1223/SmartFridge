@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FridgeRecipe.API", "FridgeRecipe.API.csproj", "{1F46017C-A2A7-48FA-97D7-8C1742F22F1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FridgeRecipe.Domain", "..\FridgeRecipe.Domain\FridgeRecipe.Domain.csproj", "{69415890-BE67-486C-A14F-5C447F881253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FridgeRecipe.Infrastructure", "..\FridgeRecipe.Infrastructure\FridgeRecipe.Infrastructure.csproj", "{C4AD216D-9E06-446A-B8A8-A1CBD1BD2A0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F46017C-A2A7-48FA-97D7-8C1742F22F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F46017C-A2A7-48FA-97D7-8C1742F22F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F46017C-A2A7-48FA-97D7-8C1742F22F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F46017C-A2A7-48FA-97D7-8C1742F22F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69415890-BE67-486C-A14F-5C447F881253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69415890-BE67-486C-A14F-5C447F881253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69415890-BE67-486C-A14F-5C447F881253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69415890-BE67-486C-A14F-5C447F881253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4AD216D-9E06-446A-B8A8-A1CBD1BD2A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4AD216D-9E06-446A-B8A8-A1CBD1BD2A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4AD216D-9E06-446A-B8A8-A1CBD1BD2A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4AD216D-9E06-446A-B8A8-A1CBD1BD2A0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90DE0114-1B2D-480A-8B1A-3C08EB8EE678}
+	EndGlobalSection
+EndGlobal
