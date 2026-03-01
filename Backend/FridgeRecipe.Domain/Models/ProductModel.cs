@@ -8,7 +8,7 @@ namespace FridgeRecipe.Domain.Models
 {
     public class ProductModel
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Name { get; set; }
         public string Barcode { get; set; }
         public DateTime? ExpiryDate { get; set; }
@@ -16,6 +16,8 @@ namespace FridgeRecipe.Domain.Models
         public int Quantity { get; set; }
         public string Category { get; set; }
         public bool IsInFridge { get; set; }
+
+        public ICollection<ShoppingItemModel> ShoppingItems { get; set; } = new List<ShoppingItemModel>();
 
     }
 }
